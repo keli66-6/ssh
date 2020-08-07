@@ -13,8 +13,8 @@ Sevendays_ago=$(date "+%Y-%m-%d" -d '7 day ago')
 
 #今天星期几
 week=`date +%w`
-mysqluser="backup_mysql"
-mysqlpass="123321.shui"
+mysqluser="用户名"
+mysqlpass="密码"
 mysqlcon=/etc/my.cnf
 
 first=`date "+%Y-%m-%d"`
