@@ -1,0 +1,22 @@
+for循环代码
+for i in 1 2 3 4; do while : ; do : ; done & done
+
+观察对负载平衡的影响
+#!/bin/bash
+while true
+do
+  uptime
+  sleep 30
+done
+
+结束进程
+kill %1 %2 %3 %4
+
+增加压力专用工具
+#!/bin/bash
+while true
+do
+  free
+  sleep 30
+done
+
